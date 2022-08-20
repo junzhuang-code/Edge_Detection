@@ -12,7 +12,7 @@ Here I implement two versions. For the canny edge detector, I convert the gradie
 
 ### 2. Run the scripts
 I use GNU Compiler Collection (GCC) to run the scripts on MacOS.
-> ```gcc script_name.cpp -o script_name```
+> ```gcc script_name.cpp -o script_name``` \
 > ```./script_name```
 
 Before running, the user needs to set up the WIDTH and HEIGHT of the image, the size of the filter, the threshold, and the name of the input image inside the script (Cannot pass the arguments at this version).
